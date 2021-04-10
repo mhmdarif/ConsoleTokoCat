@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsoleTokoCat/1.0.0": {
+        "dependencies": {
+          "CatClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleTokoCat.dll": {}
+        }
+      },
+      "CatClassLibrary/1.0.0": {
+        "runtime": {
+          "CatClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTokoCat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CatClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

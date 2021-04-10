@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CatClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CatClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CatClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CatClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../CatClassLibrary/CatClassLibrary.csproj",
+      "msbuildProject": "../CatClassLibrary/CatClassLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CatClassLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DRGNLLCFFR\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\CODING\\ConsoleTokoCat\\ConsoleTokoCat\\ConsoleTokoCat.csproj",
+      "projectName": "ConsoleTokoCat",
+      "projectPath": "F:\\CODING\\ConsoleTokoCat\\ConsoleTokoCat\\ConsoleTokoCat.csproj",
+      "packagesPath": "C:\\Users\\DRGNLLCFFR\\.nuget\\packages\\",
+      "outputPath": "F:\\CODING\\ConsoleTokoCat\\ConsoleTokoCat\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DRGNLLCFFR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "F:\\CODING\\ConsoleTokoCat\\CatClassLibrary\\CatClassLibrary.csproj": {
+              "projectPath": "F:\\CODING\\ConsoleTokoCat\\CatClassLibrary\\CatClassLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

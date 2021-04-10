@@ -1,0 +1,12 @@
+F:\CODING\ConsoleTokoCat\CatClassLibrary\bin\Debug\net5.0\CatClassLibrary.deps.json
+F:\CODING\ConsoleTokoCat\CatClassLibrary\bin\Debug\net5.0\CatClassLibrary.dll
+F:\CODING\ConsoleTokoCat\CatClassLibrary\bin\Debug\net5.0\ref\CatClassLibrary.dll
+F:\CODING\ConsoleTokoCat\CatClassLibrary\bin\Debug\net5.0\CatClassLibrary.pdb
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.csprojAssemblyReference.cache
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.AssemblyInfoInputs.cache
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.AssemblyInfo.cs
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.csproj.CoreCompileInputs.cache
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.dll
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\ref\CatClassLibrary.dll
+F:\CODING\ConsoleTokoCat\CatClassLibrary\obj\Debug\net5.0\CatClassLibrary.pdb

@@ -6,20 +6,14 @@ using System.Threading.Tasks;
 
 namespace CatClassLibrary
 {
-    public class Cat
+    public abstract class Cat //dengan menggunakan abstract class atau interface maka sudah menjalankan pilar Abstraction
     {
-        public string nama { get; set; }
-        public string warna { get; set; }
-        public double kuantitas { get; set; }
+        public string merk { get; set; } //contoh anonymous property
+        public string warna { get; set; } //dengan membuat property maka sudah menjalankan pilar Encapsulation
+        public double ukuran { get; set; }
         public double harga { get; set; }
 
-        public Cat(string nama, string warna, double kuantitas, double harga)
-        {
-            this.nama = nama;
-            this.warna = warna;
-            this.kuantitas = kuantitas;
-            this.harga = harga;
-
-        }
+        public abstract string ToStringCat(); //contoh penerapan abstract method pada abstract class
+             
     }
 }
