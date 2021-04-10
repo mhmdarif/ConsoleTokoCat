@@ -90,6 +90,66 @@ namespace ConsoleTokoCat
                         
                         break;
 
+                    case 5:
+                        string catMerk = "";
+                        string catJenis = "";
+                        string catWarna = "";
+                        double catHarga = 0;
+                        double catUkuran = 0;
+
+                        Console.Write("merk : ");
+                        catMerk = Console.ReadLine();
+
+                        Console.Write("Jenis (Cat Kayu/Cat Tembok): ");
+                        catJenis = Console.ReadLine();
+
+                        Console.Write("warna : ");
+                        catWarna = Console.ReadLine();
+
+                        Console.Write("harga : ");
+                        try
+                        {
+                            catHarga = double.Parse(Console.ReadLine());
+                        }
+                        catch (Exception)
+                        {
+
+                            Console.WriteLine("masukan salah");
+                            break;
+                        }
+
+                        Console.Write("Ukuran : ");
+                        try
+                        {
+                            catUkuran = double.Parse(Console.ReadLine());
+                        }
+                        catch (Exception)
+                        {
+                            Console.WriteLine("masukan salah");
+                            break;
+                        }
+
+                        //memasukan cat sesuai jenisnya
+                        if (catJenis == "Cat Kayu")
+                        {
+                            CatKayu catBaru = new CatKayu(catMerk, catWarna, catUkuran, catHarga);
+                            t.daftarCat.Add(catBaru);
+                        }
+                        else if (catJenis == "Cat Tembok")
+                        {
+                            CatTembok catBaru = new CatTembok(catMerk, catWarna, catUkuran, catHarga);
+                            t.daftarCat.Add(catBaru);
+                        }
+                        else
+                        {
+                            Console.WriteLine("input jenis cat tidak sesuai");
+                        }
+                        Console.WriteLine("");
+                        Tampil.printStok(t);
+
+                        break;
+
+
                     default:
                         Console.WriteLine("\nmasukan yang ada berikan salah! masukan opsi sesuai ketentuan (int angka)");
                         break;
@@ -99,33 +159,9 @@ namespace ConsoleTokoCat
             }
         }
 
+
+
         
-        
-        /*public void tambahCat()
-        {
-            string catMerk = "";
-            string catWarna = "";
-            double catHarga = 0;
-            double catKuantitas = 0;
-
-            Console.Write("merk : ");
-            catMerk = Console.ReadLine();
-
-            Console.Write("warna : ");
-            catWarna = Console.ReadLine();
-
-            Console.Write("harga : ");
-            catHarga = double.Parse(Console.ReadLine());
-
-            Console.Write("Jumlah barang : ");
-            catKuantitas = double.Parse(Console.ReadLine());
-
-            Cat catBaru = new CatKayu(catMerk, catWarna, catKuantitas, catHarga);
-            t.daftarCat.Add(catBaru);
-
-            Console.WriteLine("");
-            Toko.printStok(t);
-        }*/
     }    
 
 }

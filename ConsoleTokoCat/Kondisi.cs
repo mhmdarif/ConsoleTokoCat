@@ -15,7 +15,7 @@ namespace ConsoleTokoCat
             while (flag != false)
             {
                 Console.WriteLine("\n\n===============================================================================================================");
-                Console.WriteLine("\n(0) = quit, (1) = melihat daftar cat, (2) = memasukan barang ke dalam keranjang, (3) = melihat daftar belanja, (4) =  melakukan pembayaran");
+                Console.WriteLine("\n(0) = quit, (1) = melihat daftar cat, (2) = memasukan barang ke dalam keranjang, (3) = melihat daftar belanja, (4) =  melakukan pembayaran, (5) = untuk menambahkan cat");
                 Console.WriteLine("sialakan pilih opsi yang tersedia");
                 try
                 {
